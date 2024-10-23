@@ -1,0 +1,137 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif; /* Fuente general */
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin relleno */
+    background-color: #f0f0f0; /* Fondo claro */
+}
+
+/* Estilo para la sección de Iniciales */
+.Iniciales {
+    background-color: #ffcccb; /* Color de fondo rojo claro */
+    padding: 20px; /* Relleno */
+    text-align: center; /* Texto centrado */
+}
+
+.Iniciales h1 {
+    color: #d50000; /* Color del texto (rojo) */
+}
+
+.Iniciales p {
+    color: #333; /* Color del texto */
+}
+
+.Iniciales ul {
+    list-style: none; /* Sin viñetas */
+    padding: 0; /* Sin relleno */
+}
+
+.Iniciales li {
+    margin: 10px 0; /* Espaciado vertical entre los elementos de la lista */
+}
+
+.Iniciales a {
+    text-decoration: none; /* Sin subrayado */
+    color: #007bff; /* Color del enlace (azul) */
+}
+
+.Iniciales a:hover {
+    text-decoration: underline; /* Subrayar al pasar el mouse */
+}
+
+/* Estilo para la sección de imágenes */
+.seccion.imagenes {
+    text-align: center; /* Centrar las imágenes */
+    margin: 20px 0; /* Espaciado vertical */
+}
+
+.seccion.imagenes img {
+    width: 150px; /* Ancho de las imágenes */
+    margin: 0 10px; /* Espaciado entre imágenes */
+    border: 2px solid #28a745; /* Borde verde alrededor de las imágenes */
+}
+
+/* Estilo para la tabla de movimientos */
+.Movimientos {
+    margin: 20px; /* Espaciado alrededor de la sección */
+}
+
+.Movimientos table {
+    width: 100%; /* Ancho completo de la tabla */
+    border-collapse: collapse; /* Colapsar bordes */
+}
+
+.Movimientos th, .Movimientos td {
+    border: 1px solid #007bff; /* Borde azul */
+    padding: 10px; /* Relleno en las celdas */
+    text-align: left; /* Alinear texto a la izquierda */
+}
+
+.Movimientos th {
+    background-color: #007bff; /* Fondo azul para encabezados */
+    color: white; /* Color de texto blanco para encabezados */
+}
+
+/* Estilo para la sección de Novedades */
+.Novedades {
+    background-color: #d1e7dd; /* Fondo verde claro */
+    padding: 20px; /* Relleno */
+    text-align: center; /* Texto centrado */
+}
+
+.Novedades h2 {
+    color: #155724; /* Color del texto (verde oscuro) */
+}
+
+/* Estilo para el iframe */
+.Iframe {
+    text-align: center; /* Centrar el contenido del iframe */
+    margin: 20px 0; /* Espaciado vertical */
+}
+
+.Iframe h2 {
+    font-size: 24px; /* Tamaño de fuente para el encabezado */
+    color: #333; /* Color del texto */
+}
+
+.Iframe iframe {
+    width: 100%; /* Ancho completo del contenedor */
+    max-width: 560px; /* Ancho máximo para dispositivos más grandes */
+    height: 315px; /* Altura del iframe */
+    border: none; /* Sin borde */
+}
+/* Estilo para la sección de Email */
+.Email {
+    background-color: #e7f1ff; /* Fondo azul claro */
+    padding: 20px; /* Relleno */
+    text-align: center; /* Texto centrado */
+    margin: 20px; /* Espaciado alrededor de la sección */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+.Email h2 {
+    color: #0056b3; /* Color del texto (azul oscuro) */
+}
+
+.Email input[type="email"] {
+    width: 80%; /* Ancho del campo de entrada */
+    padding: 10px; /* Relleno interno */
+    margin: 10px 0; /* Margen vertical */
+    border: 1px solid #007bff; /* Borde azul */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de la fuente */
+}
+
+.Email button {
+    background-color: #007bff; /* Color de fondo azul */
+    color: white; /* Color del texto (blanco) */
+    padding: 10px 20px; /* Relleno interno */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    font-size: 16px; /* Tamaño de la fuente */
+}
+
+.Email button:hover {
+    background-color: #0056b3; /* Color de fondo azul más oscuro al pasar el mouse */
+}
